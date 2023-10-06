@@ -23,14 +23,7 @@ Only 3 games are played here but you can load more networks from the saved folde
 net = NeuralNetwork()
 game = Game()
 
-# Joseph
-#net.load(filename_weights='saved/joseph_weights.npy', filename_biases='saved/joseph_biases.npy')
-#game.start(display=True, neural_net=net)
 
-# Valentin is safe and precise
-net.load(filename_weights='saved/valentin_weights.npy', filename_biases='saved/valentin_biases.npy')
+# model 5 is safe and precise
+net.load(filename_weights='saved/model5_weights.npy', filename_biases='saved/model5_biases.npy')
 game.start(display=True, neural_net=net)
-
-# Larry,run him a few times if he's doing loops
-#net.load(filename_weights='saved/larry_weights.npy', filename_biases='saved/larry_biases.npy')
-#game.start(display=True, neural_net=net)
