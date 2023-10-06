@@ -19,5 +19,5 @@ Libraries you'll need to run the project:
 
 You will find some ready to run examples in ``main.py`` file.
 Everything is explaind in the file, just uncomment parts that you want to execute, then go to terminal and do:
-```sh
-python main.py
+```python main.py```
+we have some pre-trained models ready to use
